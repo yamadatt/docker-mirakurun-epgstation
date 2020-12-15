@@ -1,4 +1,4 @@
-FROM chinachu/mirakurun:3.2.0
+FROM chinachu/mirakurun:3.3.1
 RUN set -ex && \
     apt update && \
     apt install -y --no-install-recommends \
