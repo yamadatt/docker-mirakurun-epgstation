@@ -18,7 +18,8 @@ PLEXのチューナーを使用し、recpt1による録画が可能。
 GitHub、node.js関連、sambaの設定を行う。
 
 
-
+---
+以下はもとのリポジトリからそのまま。
 
 # docker-mirakurun-epgstation
 
