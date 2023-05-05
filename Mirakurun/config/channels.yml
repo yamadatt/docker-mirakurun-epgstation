@@ -1,24 +1,48 @@
-- name: NHK総合・東京
+- name: Ｊ：ＣＯＭチャンネル
   type: GR
-  channel: '27'
-- name: NHK Eテレ東京
+  channel: '13'
+  isDisabled: false
+- name: Ｊ：ＣＯＭテレビ
   type: GR
-  channel: '26'
-- name: 日本テレビ
+  channel: '17'
+  isDisabled: false
+- name: ｔｖｋ
   type: GR
-  channel: '25'
-- name: テレビ朝日
+  channel: '18'
+  isDisabled: false
+- name: ＴＯＫＹＯ　ＭＸ
   type: GR
-  channel: '24'
-- name: TBS
+  channel: '20'
+  isDisabled: false
+- name: フジテレビ
+  type: GR
+  channel: '21'
+  isDisabled: false
+- name: ＴＢＳ
   type: GR
   channel: '22'
+  isDisabled: false
 - name: テレビ東京
   type: GR
   channel: '23'
-- name: フジテレビジョン
+  isDisabled: false
+- name: テレビ朝日
   type: GR
-  channel: '21'
-- name: TOKYO MX
+  channel: '24'
+  isDisabled: false
+- name: 日テレ
   type: GR
-  channel: '20'
+  channel: '25'
+  isDisabled: false
+- name: ＮＨＫＥテレ
+  type: GR
+  channel: '26'
+  isDisabled: false
+- name: ＮＨＫ総合
+  type: GR
+  channel: '27'
+  isDisabled: false
+- name: テレ玉
+  type: GR
+  channel: '32'
+  isDisabled: false
