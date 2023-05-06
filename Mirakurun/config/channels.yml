@@ -1,11 +1,11 @@
 - name: Ｊ：ＣＯＭチャンネル
   type: GR
   channel: '13'
-  isDisabled: false
+  isDisabled: true
 - name: Ｊ：ＣＯＭテレビ
   type: GR
   channel: '17'
-  isDisabled: false
+  isDisabled: true
 - name: ｔｖｋ
   type: GR
   channel: '18'
