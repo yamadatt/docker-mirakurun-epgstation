@@ -15,6 +15,8 @@ mysql:
     password: epgstation
     database: epgstation
 
+# ストレージのチェック間隔 43200秒 = 12時間
+storageLimitCheckIntervalTime: 43200
 
 epgUpdateIntervalTime: 10
 
