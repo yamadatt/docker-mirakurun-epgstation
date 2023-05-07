@@ -6,7 +6,11 @@
 
 PLEXのチューナーを使用し、recpt1による録画が可能。
 
+また、録画ルールのバックアップにもこのリポジトリを使用している。
+
 ## 構築手順
+
+### 録画、エンコードまで
 
 初期設定として、shellスクリプトを動かす。
 
@@ -15,7 +19,20 @@ PLEXのチューナーを使用し、recpt1による録画が可能。
 
 docker-composeで起動して動作確認する。
 
-継続して以下の設定を実施する。
+### やっておくと便利
+
+ルールのバックアップとして、以下をcronで起動する。
+
+  00 1 * * * docker exec -d epgstation-nvenc npm run backup config/`date +\%Y\%m\%d`_rule_backup.json
+
+以下を使用して、録画状況をslackに通知する。
+
+- 改めてbuildする場合は、```CGO_ENABLED=0 go build```でduildする
+- appのslack導入とchannelの参加も忘れずに実施
+
+[hiroxto/epgstation\-slack\-notification: EPGStationの通知をSlackに送るコマンドラインツール](https://github.com/hiroxto/epgstation-slack-notification)
+
+## その他
 
 - GitHubの秘密鍵設定
 - sambaのファイル共有

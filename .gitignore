@@ -4,6 +4,7 @@
 *.log-*
 .DS_Store
 ._*
+epgstation-slack-config.yml
 Mirakurun/data/*
 /recorded/*
 /mirakurun/data/*

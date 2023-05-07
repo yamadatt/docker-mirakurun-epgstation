@@ -18,6 +18,15 @@ mysql:
 # ストレージのチェック間隔 43200秒 = 12時間
 storageLimitCheckIntervalTime: 43200
 
+# 録画開始時に実行するコマンド
+recordingStartCommand: "/app/config/epgstation-slack-notification recording-start"
+# 録画終了時に実行するコマンド
+recordingFinishCommand: "/app/config/epgstation-slack-notification recording-finish"
+# 録画中のエラー発生時に実行するコマンド
+recordingFailedCommand: "/app/config/epgstation-slack-notification recording-failed"
+# エンコード終了時に実行するコマンド
+encodingFinishCommand: "/app/config/epgstation-slack-notification encoding-finish"
+
 epgUpdateIntervalTime: 10
 
 conflictPriority: 1
