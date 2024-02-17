@@ -43,11 +43,11 @@ thumbnailPosition: 5
 ffmpeg: /usr/local/bin/ffmpeg
 ffprobe: /usr/local/bin/ffprobe
 
-encodeProcessNum: 4
-concurrentEncodeNum: 3
+encodeProcessNum: 3
+concurrentEncodeNum: 1
 encode:
     - name: H265/nvenc
-      cmd: /bin/bash %ROOT%/config/enc_nvenc.sh
+      cmd: /bin/bash %ROOT%/config/enc_nvenc.sh_
       suffix: _nvenc.mp4
       rate: 4.0
 
