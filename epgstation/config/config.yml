@@ -19,7 +19,7 @@ mysql:
 storageLimitCheckIntervalTime: 43200
 
 # 録画開始時に実行するコマンド
-recordingStartCommand: "/app/config/epgstation-slack-notification recording-start"
+#recordingStartCommand: "/app/config/epgstation-slack-notification recording-start"
 # 録画終了時に実行するコマンド
 #recordingFinishCommand: "/app/config/epgstation-slack-notification recording-finish"
 # エンコード終了時に実行するコマンド
@@ -47,7 +47,7 @@ encodeProcessNum: 3
 concurrentEncodeNum: 1
 encode:
     - name: H265/nvenc
-      cmd: /bin/bash %ROOT%/config/enc_nvenc.sh_
+      cmd: /bin/bash %ROOT%/config/enc_nvenc.sh
       suffix: _nvenc.mp4
       rate: 4.0
 
